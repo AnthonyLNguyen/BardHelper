@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <table>
+        <tr>
+            <th></th>
+            <th>(-1)</th>
+            <th></th>
+            <th>(+1)</th>
+        </tr>
+        <tr>
+            <th>C</th>
+            <th><input id="C (-1)" type="text" value="alt+1"></th>
+            <th><input id="C" type="text" value="1"></th>
+            <th><input id="C (+1)" type="text" value="shift+1"></th>
+        </tr>
+        <tr>
+            <th>C#</th>
+            <th><input id="C# (-1)" type="text" value="alt+2"></th>
+            <th><input id="C#" type="text" value="2"></th>
+            <th><input id="C# (+1)" type="text" value="shift+2"></th>
+        </tr>
+        <tr>
+            <th>D</th>
+            <th><input id="D (-1)" type="text" value="alt+3"></th>
+            <th><input id="D" type="text" value="3"></th>
+            <th><input id="D (+1)" type="text" value="shift+3"></th>
+        </tr>
+        <tr>
+            <th>Eb</th>
+            <th><input id="Eb (-1)" type="text" value="alt+4"></th>
+            <th><input id="Eb" type="text" value="4"></th>
+            <th><input id="Eb (+1)" type="text" value="shift+4"></th>
+        <tr>
+            <th>E</th>
+            <th><input id="E (-1)" type="text" value="alt+5"></th>
+            <th><input id="E" type="text" value="5"></th>
+            <th><input id="E (+1)" type="text" value="shift+5"></th>
+        </tr>
+        <tr>
+            <th>F</th>
+            <th><input id="F (-1)" type="text" value="alt+6"></th>
+            <th><input id="F" type="text" value="6"></th>
+            <th><input id="F (+1)" type="text" value="shift+6"></th>
+        </tr>
+        <tr>
+            <th>Fb</th>
+            <th><input id="F# (-1)" type="text" value="alt+7"></th>
+            <th><input id="F#" type="text" value="7"></th>
+            <th><input id="F# (+1)" type="text" value="shift+7"></th>
+        </tr>
+        <tr>
+            <th>G</th>
+            <th><input id="G (-1)" type="text" value="alt+8"></th>
+            <th><input id="G" type="text" value="8"></th>
+            <th><input id="G (+1)" type="text" value="shift+8"></th>
+        </tr>
+        <tr>
+            <th>G#</th>
+            <th><input id="G# (-1)" type="text" value="alt+9"></th>
+            <th><input id="G#" type="text" value="9"></th>
+            <th><input id="G# (+1)" type="text" value="shift+9"></th>
+        </tr>
+        <tr>
+            <th>A</th>
+            <th><input id="A (-1)" type="text" value="alt+0"></th>
+            <th><input id="A" type="text" value="0"></th>
+            <th><input id="A (+1)" type="text" value="shift+0"></th>
+        </tr>
+        <tr>
+            <th>Bb</th>
+            <th><input id="Bb (-1)" type="text" value="alt+-"></th>
+            <th><input id="Bb" type="text" value="-"></th>
+            <th><input id="Bb (+1)" type="text" value="shift+-"></th>
+        </tr>
+        <tr>
+            <th>B</th>
+            <th><input id="B (-1)" type="text" value="alt+="></th>
+            <th><input id="B" type="text" value="="></th>
+            <th><input id="B (+1)" type="text" value="shift+="></th>
+        </tr>
+    </table>
+</div>
+<div>
+    Enter notes here:<br>
+    <textarea id="notes" rows="10" cols="100"></textarea>
+    <button onclick="myFunction()">Convert</button><br>
+    <textarea id="output" rows="10" cols="100"></textarea>
+</div>
+<script src="parser.js"></script>
+</body>
+</html>
