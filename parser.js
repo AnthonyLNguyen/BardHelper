@@ -13,8 +13,6 @@ function myFunction() {
         var a = String.fromCharCode(i);
         notes = replaceAll(notes,a+"-1",document.getElementById(a+" (-1)").value);
         notes = replaceAll(notes,a+"\\+1",document.getElementById(a+" (+1)").value);
-        notes = replaceAll(notes,a+"-1",document.getElementById(a+" (-1)").value);
-        notes = replaceAll(notes,a+"\\+1",document.getElementById(a+" (+1)").value);
         notes = replaceAll(notes,a,document.getElementById(a).value);
     }
     document.getElementById("output").value = notes;
