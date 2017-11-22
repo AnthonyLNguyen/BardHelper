@@ -10,6 +10,7 @@
 </div>
 <div>
     <h2>Keybinds:</h2>
+    Enter your keybinds here. See recommended layout.
     <table>
         <tr>
             <th></th>
@@ -19,74 +20,75 @@
         </tr>
         <tr>
             <th>C</th>
-            <th><input id="C (-1)" type="text" value="alt+1"></th>
+            <th><input id="C (-1)" type="text" value="a1"></th>
             <th><input id="C" type="text" value="1"></th>
-            <th><input id="C (+1)" type="text" value="shift+1"></th>
+            <th><input id="C (+1)" type="text" value="s1"></th>
+            <th><input id="C (+2)" type="text" value="c1"></th>
         </tr>
         <tr>
             <th>C#</th>
-            <th><input id="C# (-1)" type="text" value="alt+2"></th>
+            <th><input id="C# (-1)" type="text" value="a2"></th>
             <th><input id="C#" type="text" value="2"></th>
-            <th><input id="C# (+1)" type="text" value="shift+2"></th>
+            <th><input id="C# (+1)" type="text" value="s2"></th>
         </tr>
         <tr>
             <th>D</th>
-            <th><input id="D (-1)" type="text" value="alt+3"></th>
+            <th><input id="D (-1)" type="text" value="a3"></th>
             <th><input id="D" type="text" value="3"></th>
-            <th><input id="D (+1)" type="text" value="shift+3"></th>
+            <th><input id="D (+1)" type="text" value="s3"></th>
         </tr>
         <tr>
             <th>E♭</th>
-            <th><input id="E♭ (-1)" type="text" value="alt+4"></th>
+            <th><input id="E♭ (-1)" type="text" value="a4"></th>
             <th><input id="E♭" type="text" value="4"></th>
-            <th><input id="E♭ (+1)" type="text" value="shift+4"></th>
+            <th><input id="E♭ (+1)" type="text" value="s4"></th>
         <tr>
             <th>E</th>
-            <th><input id="E (-1)" type="text" value="alt+5"></th>
+            <th><input id="E (-1)" type="text" value="a5"></th>
             <th><input id="E" type="text" value="5"></th>
-            <th><input id="E (+1)" type="text" value="shift+5"></th>
+            <th><input id="E (+1)" type="text" value="s5"></th>
         </tr>
         <tr>
             <th>F</th>
-            <th><input id="F (-1)" type="text" value="alt+6"></th>
+            <th><input id="F (-1)" type="text" value="a6"></th>
             <th><input id="F" type="text" value="6"></th>
-            <th><input id="F (+1)" type="text" value="shift+6"></th>
+            <th><input id="F (+1)" type="text" value="s6"></th>
         </tr>
         <tr>
             <th>F♭</th>
-            <th><input id="F# (-1)" type="text" value="alt+7"></th>
+            <th><input id="F# (-1)" type="text" value="a7"></th>
             <th><input id="F#" type="text" value="7"></th>
-            <th><input id="F# (+1)" type="text" value="shift+7"></th>
+            <th><input id="F# (+1)" type="text" value="s7"></th>
         </tr>
         <tr>
             <th>G</th>
-            <th><input id="G (-1)" type="text" value="alt+8"></th>
+            <th><input id="G (-1)" type="text" value="a8"></th>
             <th><input id="G" type="text" value="8"></th>
-            <th><input id="G (+1)" type="text" value="shift+8"></th>
+            <th><input id="G (+1)" type="text" value="s8"></th>
         </tr>
         <tr>
             <th>G#</th>
-            <th><input id="G# (-1)" type="text" value="alt+9"></th>
+            <th><input id="G# (-1)" type="text" value="a9"></th>
             <th><input id="G#" type="text" value="9"></th>
-            <th><input id="G# (+1)" type="text" value="shift+9"></th>
+            <th><input id="G# (+1)" type="text" value="s9"></th>
         </tr>
         <tr>
             <th>A</th>
-            <th><input id="A (-1)" type="text" value="alt+0"></th>
+            <th><input id="A (-1)" type="text" value="a0"></th>
             <th><input id="A" type="text" value="0"></th>
-            <th><input id="A (+1)" type="text" value="shift+0"></th>
+            <th><input id="A (+1)" type="text" value="s0"></th>
         </tr>
         <tr>
             <th>B♭</th>
-            <th><input id="B♭ (-1)" type="text" value="alt+-"></th>
+            <th><input id="B♭ (-1)" type="text" value="a-"></th>
             <th><input id="B♭" type="text" value="-"></th>
-            <th><input id="B♭ (+1)" type="text" value="shift+-"></th>
+            <th><input id="B♭ (+1)" type="text" value="s-"></th>
         </tr>
         <tr>
             <th>B</th>
-            <th><input id="B (-1)" type="text" value="alt+="></th>
+            <th><input id="B (-1)" type="text" value="a="></th>
             <th><input id="B" type="text" value="="></th>
-            <th><input id="B (+1)" type="text" value="shift+="></th>
+            <th><input id="B (+1)" type="text" value="s="></th>
         </tr>
     </table>
 </div>
@@ -100,26 +102,21 @@
 <div>
     <h2>Enter notes here:</h2>
     <a href="https://www.reddit.com/r/ffxiv/wiki/perform">Example Songs</a><br>
-    <textarea id="notes" rows="10" cols="100">garlemald hymn
+    <textarea id="notes" rows="10" cols="100" placeholder="Input notes here
+EXAMPLE: garlemald hymn
 
 F-1 B♭-1 B♭-1 C C D B♭-1 D D D E♭ D C F-1
-
 F-1 G G A A B♭-1 C D F-1 D E♭ C B♭-1 B♭-1
-
 B♭-1 G G E♭ G F B♭-1 B♭-1 G G E♭ G F
-
-F-1 G G A A B♭-1 C D F-1 D E♭ C B♭-1 B♭-1</textarea>
+F-1 G G A A B♭-1 C D F-1 D E♭ C B♭-1 B♭-1"></textarea>
     <button onclick="myFunction()">Convert</button><br>
     <h2>Output:</h2>
     <textarea id="output" rows="10" cols="100">garlemald hymn
 
-alt+6 alt+- alt+- 1 1 3 alt+- 3 3 3 4 3 1 alt+6
-
-alt+6 8 8 0 0 alt+- 1 3 alt+6 3 4 1 alt+- alt+-
-
-alt+- 8 8 4 8 6 alt+- alt+- 8 8 4 8 6
-
-alt+6 8 8 0 0 alt+- 1 3 alt+6 3 4 1 alt+- alt+-</textarea>
+a6 a- a- 1 1 3 a- 3 3 3 4 3 1 a6
+a6 8 8 0 0 a- 1 3 a6 3 4 1 a- a-
+a- 8 8 4 8 6 a- a- 8 8 4 8 6
+a6 8 8 0 0 a- 1 3 a6 3 4 1 a- a-</textarea>
 </div>
 <script src="parser.js"></script>
 </body>
