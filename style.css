@@ -1,0 +1,15 @@
+input{
+    width: 32px;
+}
+
+#layout{
+    float: left;
+}
+
+#keybinds{
+    float: left;
+}
+
+#input{
+    float: right;
+}
