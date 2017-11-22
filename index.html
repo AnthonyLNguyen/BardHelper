@@ -103,6 +103,8 @@
 </div>
 <div id = "input">
     <h2>Enter notes here:</h2>
+    Use either ♭ or b and use -1 or +1 for octaves.<br>
+    Example: E♭+1<br>
     <a href="https://www.reddit.com/r/ffxiv/wiki/perform">Example Songs</a><br>
     <textarea id="notes" rows="10" cols="100" placeholder="Input notes here
 EXAMPLE: garlemald hymn
@@ -111,7 +113,7 @@ F-1 B♭-1 B♭-1 C C D B♭-1 D D D E♭ D C F-1
 F-1 G G A A B♭-1 C D F-1 D E♭ C B♭-1 B♭-1
 B♭-1 G G E♭ G F B♭-1 B♭-1 G G E♭ G F
 F-1 G G A A B♭-1 C D F-1 D E♭ C B♭-1 B♭-1"></textarea>
-    <button onclick="myFunction()">Convert</button><br>
+    <button onclick="convert()">Convert</button><br>
     <h2>Output:</h2>
     <textarea id="output" rows="10" cols="100">garlemald hymn
 
