@@ -3,7 +3,7 @@
  */
 function myFunction() {
     var notes = document.getElementById("notes").value;
-    var d = ["C#","Eb","E♭","F#","G#","Bb","B♭"];
+    var d = ["C#","E♭","F#","G#","B♭"];
     for(var j = 0; j < d.length; j++){
         notes = replaceAll(notes,d[j]+"-1",document.getElementById(d[j]+" (-1)").value);
         notes = replaceAll(notes,d[j]+"\\+1",document.getElementById(d[j]+" (+1)").value);
