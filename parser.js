@@ -3,8 +3,8 @@
  */
 function convert() {
     var notes = document.getElementById("notes").value;
-    notes = replaceAll(notes,"b","♭");
-    var d = ["C#","E♭","F#","G#","B♭"];
+    notes = replaceAll(notes,"♭","b");
+    var d = ["C#","Eb","F#","G#","Bb"];
     for(var j = 0; j < d.length; j++){
         notes = replaceAll(notes,d[j]+"-1",document.getElementById(d[j]+" (-1)").value.toLowerCase());
         notes = replaceAll(notes,d[j]+"\\+1",document.getElementById(d[j]+" (+1)").value.toLowerCase());
