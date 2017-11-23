@@ -4,6 +4,11 @@
 function convert() {
     var notes = document.getElementById("notes").value;
     notes = replaceAll(notes,"♭","b");
+    notes = replaceAll(notes,"A#","Bb");
+    notes = replaceAll(notes,"Db","C#");
+    notes = replaceAll(notes,"D#","Eb");
+    notes = replaceAll(notes,"Gb","F#");
+    notes = replaceAll(notes,"Ab","G#");
     var d = ["C#","Eb","F#","G#","Bb"];
     for(var j = 0; j < d.length; j++){
         notes = replaceAll(notes,d[j]+"-1",document.getElementById(d[j]+" (-1)").value.toLowerCase());
