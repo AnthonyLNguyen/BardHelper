@@ -10,7 +10,7 @@ function convert() {
     notes = replaceAll(notes,"Gb","F#");
     notes = replaceAll(notes,"Ab","G#");
     var d = ["C#","Eb","F#","G#","Bb"];
-    notes = replaceAll(notes,"C"+"\\+2",document.getElementById("C (+2)").value.toLowerCase());
+
     for(var j = 0; j < d.length; j++){
         notes = replaceAll(notes,d[j]+"-1",document.getElementById(d[j]+" (-1)").value.toLowerCase());
         notes = replaceAll(notes,d[j]+"\\+1",document.getElementById(d[j]+" (+1)").value.toLowerCase());
